@@ -19,11 +19,12 @@ Then add u8833 device tree:
 
     mkdir device/huawei
     cd device/huawei
+    git clone https://github.com/adeii/twrp_device_huawei_u8833.git
     mv twrp_device_huawei_u8833 u8833
 
 Then to build:
 
-    cd <source-dir>
+    cd ../..
     . build/envsetup.sh
     lunch omni_u8833-eng
     mka recoveryimage
