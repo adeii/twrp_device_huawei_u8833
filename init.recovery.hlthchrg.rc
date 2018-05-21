@@ -1,0 +1,6 @@
+# charger for Android 8.0 and up
+# copied from /bootable/recovery/etc/
+
+service charger /charger -r
+    critical
+    seclabel u:r:charger:s0
