@@ -21,10 +21,18 @@ Then add u8833 device tree:
     cd device/huawei
     git clone https://github.com/adeii/twrp_device_huawei_u8833.git
     mv twrp_device_huawei_u8833 u8833
+    
+Maybe vendor/huawei tree is needed, if so, add to manifest:
+   
+    <project path="vendor/huawei" name="Dazzozo/proprietary_vendor_huawei" remote="github" revision="kitkat" />
+    
+ And execute in the sourcecode root
+   
+    repo sync vendor/huawei
 
 Then to build:
 
-    cd ../..
+    cd < sourcecode root >
     . build/envsetup.sh
     lunch omni_u8833-eng
     mka recoveryimage
