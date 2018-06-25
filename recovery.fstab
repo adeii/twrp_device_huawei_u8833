@@ -1,6 +1,6 @@
 # mount point	    fstype		device			
 
-/misc		     emmc	/dev/block/mmcblk0p7     flags=backup=1
+#misc		     emmc	/dev/block/mmcblk0p7     flags=backup=1 --- it is better to stay out off recoveryloop troubles
 /boot		     emmc	/dev/block/mmcblk0p12  flags=backup=1
 /recovery           emmc       /dev/block/mmcblk0p13  flags=backup=1
 /cache		     ext4		/dev/block/mmcblk0p15
