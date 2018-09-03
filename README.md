@@ -13,7 +13,7 @@ To initialize a shallow clone, which will save even more space, use a command li
     
 *** Change project bootable/recovery to newest branch, currect is android-9.0 in default.xml ***
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Well, maybe need to add full device tree, but we will still use prebuilts:
 
