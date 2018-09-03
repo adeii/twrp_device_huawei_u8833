@@ -11,6 +11,8 @@ To initialize a shallow clone, which will save even more space, use a command li
 
     repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-4.4
     
+*** Change project bootable/recovery to newest branch, currect is android-9.0 in default.xml ***
+    
 Well, maybe need to add full device tree, but we will still use prebuilts:
 Copy msm7x27a-LP.xml to .repo/local_manifests
    
